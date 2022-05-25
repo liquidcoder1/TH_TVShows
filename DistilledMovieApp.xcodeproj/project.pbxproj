@@ -37,6 +37,7 @@
 		52750C39283E488B00156798 /* TopRatedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52750C38283E488B00156798 /* TopRatedCell.swift */; };
 		52750C3B283E595D00156798 /* HomeScreenObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52750C3A283E595D00156798 /* HomeScreenObject.swift */; };
 		52750C3C283E636100156798 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52750C25283D5B6000156798 /* Constants.swift */; };
+		52750C3E283E9ADA00156798 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52750C3D283E9ADA00156798 /* Color+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		52750C36283E47D700156798 /* TopRatedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedContent.swift; sourceTree = "<group>"; };
 		52750C38283E488B00156798 /* TopRatedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedCell.swift; sourceTree = "<group>"; };
 		52750C3A283E595D00156798 /* HomeScreenObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenObject.swift; sourceTree = "<group>"; };
+		52750C3D283E9ADA00156798 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 				52750C1D283D563600156798 /* Bundle+.swift */,
 				52750C23283D5B3A00156798 /* ProcessInfo+.swift */,
 				52750C32283D690D00156798 /* View+.swift */,
+				52750C3D283E9ADA00156798 /* Color+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				52750C22283D5B1400156798 /* ResultState.swift in Sources */,
 				52750C1A283D55D600156798 /* TVShow.swift in Sources */,
 				52750C26283D5B6000156798 /* Constants.swift in Sources */,
+				52750C3E283E9ADA00156798 /* Color+.swift in Sources */,
 				52750C1E283D563600156798 /* Bundle+.swift in Sources */,
 				52750C20283D5A7900156798 /* TVShowViewModel.swift in Sources */,
 			);

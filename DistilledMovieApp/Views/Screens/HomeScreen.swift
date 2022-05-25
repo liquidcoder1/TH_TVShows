@@ -24,7 +24,7 @@ struct HomeScreen: View {
                 viewModel.sortShows()
             }, label: {
                 Image(systemName: "arrow.up.arrow.down")
-                    .foregroundColor(Color.black)
+                    .foregroundColor(Color.foreground)
             }).onAppear {
                 viewModel.loadPage(1)
             }

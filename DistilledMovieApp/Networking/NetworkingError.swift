@@ -12,9 +12,9 @@ enum NetworkingError: Error {
     case Unauthorized
     case RequestTimeout
     case BadResponse(HTTPURLResponse?)
-    case NetworkProblem(URLError)
+    case NetworkProblem(Error)
     
-    init(_ error:URLError){
+    init(_ error:Error){
         self = .NetworkProblem(error)
     }
     
